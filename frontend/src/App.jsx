@@ -9,7 +9,7 @@ function App() {
 
   useEffect(()=>{
 
-    axios.get("http://localhost:8000/")
+    axios.get("https://my-website-6l0u.onrender.com/")
     .then(res=>{
       setMessage(res.data.message);
     })
